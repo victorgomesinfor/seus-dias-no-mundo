@@ -2,7 +2,7 @@
 
 Informe sua data de nascimento e descubra quantos dias você já viveu e o que marcou o mundo desde então.
 
-**Demo:** https://github.com/victorgomesinfor/seus-dias-no-mundo
+**Demo:** https://victorgomesinfor.github.io/seus-dias-no-mundo/
 
 <!-- Adicione uma captura de tela aqui: ![Captura de tela](docs/screenshot.png) -->
 
