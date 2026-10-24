@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Seus dias no mundo</title>
+<meta name="description" content="Descubra quantos dias você já viveu e o que aconteceu no mundo desde o seu nascimento.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,700;12..96,800&family=Newsreader:opsz,wght@6..72,400;6..72,500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main>
+  <h1>Quantos dias você já viveu?</h1>
+  <p class="lead">Informe sua data de nascimento. Contamos seus dias de vida até hoje e mostramos o que marcou o mundo nesse período.</p>
+
+  <form id="f" novalidate>
+    <div><label for="d">Dia</label><input id="d" inputmode="numeric" maxlength="2" placeholder="15" autocomplete="bday-day"></div>
+    <div><label for="m">Mês</label><select id="m" autocomplete="bday-month"></select></div>
+    <div><label for="y">Ano</label><input id="y" inputmode="numeric" maxlength="4" placeholder="1990" autocomplete="bday-year"></div>
+    <button type="submit">Calcular meus dias</button>
+  </form>
+  <p id="err" role="alert"></p>
+
+  <section id="result" hidden aria-live="polite">
+    <p class="big" id="big">0</p>
+    <p class="big-label">dias de vida até hoje</p>
+    <dl class="stats" id="stats"></dl>
+    <h2>O mundo enquanto você vivia</h2>
+    <p class="note">Seleção de marcos históricos, não uma lista completa. Eventos do Brasil aparecem com a etiqueta Brasil.</p>
+    <ol class="tl" id="tl"></ol>
+  </section>
+  <footer>Cálculo feito no seu navegador. Nenhum dado é enviado ou guardado.</footer>
+</main>
+
+<script src="script.js"></script>
+</body>
+</html>
