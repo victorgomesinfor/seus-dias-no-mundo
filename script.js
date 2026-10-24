@@ -36,6 +36,8 @@ const EVENTS=[
 [1989,6,"Protestos da Praça da Paz Celestial, na China"],
 [1989,11,"Queda do Muro de Berlim"],
 [1990,2,"Nelson Mandela é libertado"],
+[1990,2,"Foto da sonda especial Voyager 1 mostra a Terra como um ponto azul pálido"],
+[1990,4,"Lançamento do Hubble"],
 [1990,10,"Reunificação da Alemanha"],
 [1991,1,"Guerra do Golfo"],
 [1991,8,"A World Wide Web se abre ao público"],
