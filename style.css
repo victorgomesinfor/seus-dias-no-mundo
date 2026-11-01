@@ -39,33 +39,28 @@ body {
     font: 400 1.125rem/1.6 var(--body)
 }
 
-header {  
-    text-align: center;
-    max-width: 40rem;
-    margin: 0 auto;
-    padding: 4rem 1.5rem 5rem
-}
-
 main {
-    max-width: 40rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    max-width: 46rem;
     margin: 0 auto;
     padding: 4rem 1.5rem 5rem
 }
 
-main footer {
-    
-    text-align: center;
-}
 h1 {
+    text-align: center;
     font: 800 clamp(2.2rem, 7vw, 3.6rem)/1.02 var(--display);
     letter-spacing: -.03em;
     margin: 0 0 .75rem
 }
 
 .lead {
+    text-align: center;
     color: var(--muted);
     margin: 0 0 2.5rem;
-    max-width: 36rem
+    max-width: 50rem
 }
 
 form {
@@ -243,6 +238,33 @@ h2 {
     white-space: nowrap
 }
 
+.tag {
+    font: 700 .8rem var(--display);
+    color: var(--accent);
+    border: 1.5px solid var(--accent);
+    border-radius: 99px;
+    padding: 0 .5rem;
+    margin-left: .4rem;
+    white-space: nowrap;
+    text-decoration: none
+}
+
+a.tag:hover {
+    background: var(--accent);
+    color: var(--on-accent)
+}
+
+#status {
+    color: var(--muted);
+    font-size: .95rem;
+    min-height: 1.5rem;
+    margin: -1rem 0 1.5rem
+}
+
+footer a {
+    color: inherit
+}
+
 .born {
     font: 700 1.1rem var(--display)
 }
@@ -251,7 +273,6 @@ footer {
     margin-top: 3rem;
     color: var(--muted);
     font-size: .95rem
-    
 }
 
 @media (max-width:30rem) {
