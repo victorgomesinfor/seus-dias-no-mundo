@@ -117,5 +117,5 @@ Distribuído sob a licença MIT. Veja o arquivo `LICENSE` para mais detalhes.
 
 ## Autor
 
-**Seu Nome**
+**Victor Gomes**
 [GitHub](https://github.com/victorgomesinfor/seus-dias-no-mundo)
